@@ -3,3 +3,18 @@
     padding: 0;
     margin: 0;
 }
+.quote {
+    background: #c271ff;
+}
+.tutorials {
+    background: #ffff;
+}
+.membership {
+    background: #071629;
+}
+.faq {
+    background: #ffff;
+}
+footer {
+    background: #071629;
+}
