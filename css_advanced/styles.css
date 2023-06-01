@@ -62,20 +62,11 @@
     padding-top: 20px;
     padding-bottom: 20px;
 }
-.tutorials #videos-box #one img {
-    width: 225px;
-    border-radius: 5px;
+.tutorials #videos-box #box {
+    padding-left: 10px;
 }
-.tutorials #videos-box #two img {
-    width: 225px;
-    border-radius: 5px;
-}
-.tutorials #videos-box #three img {
-    width: 225px;
-    border-radius: 5px;
-}
-.tutorials #videos-box #four img {
-    width: 225px;
+.tutorials #videos-box #box img {
+    width: 230px;
     border-radius: 5px;
 }
 .tutorials #videos-box h2 {
@@ -90,7 +81,7 @@
 }
 .tutorials #videos-box #phil {
     display: flex;
-    margin: 15px;
+    padding-top: 20px;
 }
 .tutorials #videos-box #phil img {
     width: 35px;
@@ -100,6 +91,22 @@
     color: #c271ff;
     font-size: 16px;
     padding-left: 10px;
+}
+.tutorials #videos-box #rating {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+.tutorials #videos-box #rating p {
+    color: #c271ff;
+    font-size: 15px;
+    padding-left: 100px;
+}
+.tutorials #videos-box #star {
+    display: flex;
+}
+.tutorials #videos-box #star img {
+    width: 15px;
 }
 .membership {
     background: #071629;
