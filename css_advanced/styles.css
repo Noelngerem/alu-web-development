@@ -56,14 +56,14 @@
 }
 .tutorials #videos-box {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin-left: 35px;
     margin-right: 35px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 .tutorials #videos-box #box {
-    padding-left: 10px;
+    margin-left: 10px;
 }
 .tutorials #videos-box #box img {
     width: 230px;
@@ -108,15 +108,110 @@
 .tutorials #videos-box #star img {
     width: 15px;
 }
+/*----------MEMBERSHIP SECTION--------*/
 .membership {
     background: #071629;
+    width: 100%;
+    height: 500px;
+}
+.membership h1 {
+    color: white;
+    text-align: center;
+    font-weight: normal;
+    font-size: 35.5px;
+    padding-top: 60px;
+}
+.membership h1 span {
+    color: #c271ff;
+    font-weight: bold;
 }
 .membership #membership-container {
     color: white;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 50px;
 }
+.membership #membership-box {
+    margin-left: 20px;
+    text-align: center;
+    padding: 20px;
+}
+.membership #membership-box h2 {
+    padding-bottom: 30px;
+}
+.membership #membership-box p {
+    line-height: 25px;
+}
+.membership button {
+    position: absolute;
+    left: 44.38%;
+    right: 44.38%;
+    margin-top: 40px;
+    height: 40px;
+    background: #c271ff;
+    border-radius: 35px;
+    padding: 6px;
+    color: #ffff;
+    font-size: 12px;
+}
+/*----------F.A.Q SECTION------------*/
 .faq {
-    background: #ffff;
+    width: 100%;
+    height: 707px;
 }
+.faq h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 40px;
+}
+.faq #faq-container {
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    margin-top: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.faq h2 {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.faq p {
+    line-height: 25px;
+    font-size: 15.5px;
+    color: darkgrey;
+}
+.faq #faq-box1 {
+    display: flex;
+    justify-content: space-between;
+    margin-left:25px;
+    margin-right: 25px;
+}
+.faq #faq-1 {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.faq #faq-2 {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.faq #faq-box2 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 50px;
+}
+.faq #faq-3 {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.faq #faq-4 {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+/*----------FOOTER SECTION------------*/
 footer {
     background: #071629;
 }
