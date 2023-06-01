@@ -3,6 +3,70 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    text-decoration: none;
+}
+/*-----------HEADER SECTION---------*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 2%;
+}
+header a {
+    padding: 20px;
+}
+.get-schooled {
+    width: 100%;
+    padding-bottom: 5%;
+}
+.get-schooled h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 100px;
+    margin-top: 5%;
+}
+.get-schooled #schooled p {
+    display: flex;
+    left: 38%;
+    right: 38%;
+}
+/*.get-schooled #schooled button {
+    position: absolute;
+    margin-top: 3%;
+    left: 44.38%;
+    right: 44.38%;
+    border-radius: 30px;
+    background: #c271ff;
+    color: #ffff;
+}*/
+.get-schooled #pros {
+    margin-left: 10.55%;
+    margin-right: 10.55%;
+}
+.get-schooled #pros h2 {
+    text-align: center;
+    font-weight: lighter;
+}
+.get-schooled #pros h2 span {
+    color: #c271ff;
+    font-weight: bold;
+}
+.get-schooled #pros-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10%;
+}
+.get-schooled #pros-info img {
+    border-radius: 50%;
+}
+.get-schooled #pros-info h3 {
+    text-align: center;
+}
+.get-schooled #pros-info p {
+    color: darkgray;
+    text-align: center;
 }
 /*-----------QUOTE SECTION----------*/
 .quote {
@@ -50,6 +114,7 @@
     text-align: center;
     padding-top: 65px;
     padding-bottom: 50px;
+    font-weight: lighter;
 }
 .tutorials h1 span {
     color: #c271ff;
@@ -120,6 +185,7 @@
     font-weight: normal;
     font-size: 35.5px;
     padding-top: 60px;
+    font-weight: lighter;
 }
 .membership h1 span {
     color: #c271ff;
