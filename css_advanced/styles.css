@@ -7,13 +7,14 @@
 }
 /*-----------HEADER SECTION---------*/
 header {
+    position: absolute;
     display: flex;
     justify-content: space-between;
-    align-content: center;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 2%;
-    background-color: black;
+    align-items: center;
+    left: 171.59px;
+    right: 171.59px;
+    height: 29.46px;
+    top: 35.02px;
 }
 header a {
     padding-left: 20px;
